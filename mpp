@@ -1,0 +1,13 @@
+cp main.c main.cpp
+
+echo "g++ build"
+eg++ main.cpp -o main.g++
+
+echo "g++ with flags build"
+eg++ main.cpp -pedantic -W -Wall -Werror -Wshadow -Wdouble-promotion -fno-common -Wconversion -Wundef -o main.g++
+
+echo "clang++ with flags build"
+clang++ main.cpp -o main.clang++
+
+echo "clang++ build"
+clang++ main.cpp -pedantic -W -Wall -Werror -Wshadow -Wdouble-promotion -fno-common -Wconversion -Wundef -o main.clang++

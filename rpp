@@ -1,0 +1,5 @@
+echo g++
+./main.g++
+echo
+echo clang++
+./main.clang++
